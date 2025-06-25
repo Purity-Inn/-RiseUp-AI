@@ -26,6 +26,7 @@
     "dev": "npm run dev --workspaces --if-present",
     "start": "npm run dev",
     "deploy": "dfx deploy",
+    "deploy:github": "cd frontend && npm run build",
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
