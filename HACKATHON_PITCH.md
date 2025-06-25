@@ -186,7 +186,7 @@ Decentralized AI Processing
 **"RiseUp AI isn't just a hackathon project - it's the beginning of a movement to democratize AI and empower the next generation of builders."**
 
 ### **Try It Now:**
-- 🌐 **Live Demo**: [Visit RiseUp AI](https://eefov-2qaaa-aaaac-qaisq-cai.icp1.io)
+- 🌐 **Live Demo**: [Visit RiseUp AI](https://tubular-medovik-d38232.netlify.app)
 - 📱 **Mobile Friendly**: Works on any device
 - ⚡ **Instant Access**: No signup required
 - 🎯 **Real AI**: Experience sovereign intelligence

@@ -77,7 +77,7 @@ graph TB
 ## 🚀 **Quick Start**
 
 ### **Option 1: View Live Demo** 🚀
-Visit our [GitHub Pages demo](https://purity-inn.github.io/-RiseUp-AI/) to experience RiseUp AI immediately!
+**🌐 [LIVE DEMO](https://tubular-medovik-d38232.netlify.app)** - Experience RiseUp AI immediately!
 
 ### **Option 2: Run Locally**
 

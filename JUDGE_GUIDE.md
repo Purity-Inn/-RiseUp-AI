@@ -2,7 +2,10 @@
 
 ## 🌐 **Live Demo URLs**
 
-### **Primary Demo** (Choose the working one):
+### **✅ WORKING DEMO**:
+**🚀 Primary Demo**: https://tubular-medovik-d38232.netlify.app
+
+### **Alternative Deploy Options**:
 1. **Vercel**: Deploy at [vercel.com/new/clone](https://vercel.com/new/clone?repository-url=https://github.com/Purity-Inn/-RiseUp-AI) ⚡ (30 seconds)
 2. **Netlify**: Deploy at [netlify.com/start](https://app.netlify.com/start/deploy?repository=https://github.com/Purity-Inn/-RiseUp-AI) 🚀 (1 minute)
 3. **GitHub Pages**: https://purity-inn.github.io/-RiseUp-AI/ 📱 (If enabled)
