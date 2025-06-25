@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prebuild": "npm i --include=dev && dfx generate backend",
+    "prebuild": "npm i --include=dev",
     "build": "vite build",
+    "build:production": "vite build --mode production",
     "dev": "vite"
   },
   "dependencies": {
