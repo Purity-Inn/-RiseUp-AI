@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'url';
 import environment from 'vite-plugin-environment';
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/-RiseUp-AI/' : './',
+  base: mode === 'production' ? '/' : './',
   plugins: [react(), environment('all', { prefix: 'CANISTER_' }), environment('all', { prefix: 'DFX_' })],
   envDir: '../',
   define: {
