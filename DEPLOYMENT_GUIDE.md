@@ -106,7 +106,7 @@
 ### **Demo URLs to Share with Judges:**
 - **🌐 Live Demo**: https://purity-inn.github.io/-RiseUp-AI/
 - **📋 Source Code**: https://github.com/Purity-Inn/-RiseUp-AI
-- **📖 Documentation**: All in your GitHub repository
+- **📖 Documentation**: Available in the GitHub repository
 
 ### **Presentation Strategy:**
 1. **Show the live demo** (GitHub Pages URL)

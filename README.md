@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-✓-61DAFB?style=for-the-badge&logo=react)
 ![Web3](https://img.shields.io/badge/Web3-✓-orange?style=for-the-badge)
 
-[🌐 Live Demo](https://eefov-2qaaa-aaaac-qaisq-cai.icp1.io) • [📋 Candid UI](https://a4gq6-oaaaa-aaaab-qaa4q-cai.icp0.io/?id=e6lpp-6iaaa-aaaaa-qajnq-cai) • [🎥 Demo Video](#) • [📖 Documentation](#features)
+[🌐 Live Demo](https://purity-inn.github.io/-RiseUp-AI/) • [📋 Source Code](https://github.com/Purity-Inn/-RiseUp-AI) • [🎥 Demo Video](#demo-scenarios) • [📖 Documentation](#-features-that-wow)
 
 </div>
 
@@ -77,7 +77,7 @@ graph TB
 ## 🚀 **Quick Start**
 
 ### **Option 1: View Live Demo**
-Visit our [live deployment](https://eefov-2qaaa-aaaac-qaisq-cai.icp1.io) to experience RiseUp AI immediately!
+Visit our [GitHub Pages demo](https://purity-inn.github.io/-RiseUp-AI/) to experience RiseUp AI immediately!
 
 ### **Option 2: Run Locally**
 
