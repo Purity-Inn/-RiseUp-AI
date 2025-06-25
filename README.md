@@ -83,8 +83,8 @@ Visit our [live deployment](https://eefov-2qaaa-aaaac-qaisq-cai.icp1.io) to expe
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd motoko-llm-chatbot
+git clone https://github.com/Purity-Inn/-RiseUp-AI.git
+cd -RiseUp-AI
 
 # Install dependencies
 npm install
@@ -229,7 +229,10 @@ We welcome contributions from the community! This project represents the future 
 
 Built with ❤️ for the Internet Computer community and young innovators worldwide.
 
-**Contact**: [Your Contact Information]
+**Developer**: Purity Inn  
+**Contact**: purity.19341@student.kyu.ac.ke  
+**GitHub**: [@Purity-Inn](https://github.com/Purity-Inn)  
+**Project**: [RiseUp AI Repository](https://github.com/Purity-Inn/-RiseUp-AI)
 
 ---
 
