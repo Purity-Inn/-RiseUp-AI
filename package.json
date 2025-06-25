@@ -1,0 +1,40 @@
+{
+  "name": "riseup-ai-hackathon",
+  "version": "1.0.0",
+  "description": "🏆 RiseUp AI - Sovereign AI chatbot on Internet Computer for ICP Hackathon. Empowering youth through decentralized artificial intelligence.",
+  "keywords": [
+    "icp",
+    "internet-computer",
+    "motoko", 
+    "ai",
+    "chatbot",
+    "blockchain",
+    "hackathon",
+    "youth-empowerment",
+    "decentralized",
+    "web3"
+  ],
+  "author": "RiseUp AI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/riseup-ai-hackathon"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "prebuild": "npm run prebuild --workspaces --if-present", 
+    "dev": "npm run dev --workspaces --if-present",
+    "start": "npm run dev",
+    "deploy": "dfx deploy",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "type": "module",
+  "workspaces": [
+    "frontend"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
