@@ -225,14 +225,45 @@ We welcome contributions from the community! This project represents the future 
 
 ---
 
-## 👥 **Team**
+## 👥 **Team & Contributors**
 
-Built with ❤️ for the Internet Computer community and young innovators worldwide.
+### **🏆 Core Team**
 
-**Developer**: Purity Inn  
-**Contact**: purity.19341@student.kyu.ac.ke  
-**GitHub**: [@Purity-Inn](https://github.com/Purity-Inn)  
-**Project**: [RiseUp AI Repository](https://github.com/Purity-Inn/-RiseUp-AI)
+<div align="center">
+
+| Role | Contributor | GitHub | Contributions |
+|------|-------------|--------|---------------|
+| 🚀 **Lead Developer** | **Purity Inn** | [@Purity-Inn](https://github.com/Purity-Inn) | Full-stack development, Architecture, UI/UX |
+
+</div>
+
+### **🤝 How to Add Contributors**
+
+**If you're working with a team, add them here:**
+
+```markdown
+| 🎨 **UI/UX Designer** | Your Name | [@username](https://github.com/username) | Design, User Experience |
+| 🧠 **AI Specialist** | Your Name | [@username](https://github.com/username) | AI Logic, Response Patterns |
+| 📚 **Documentation** | Your Name | [@username](https://github.com/username) | Docs, Tutorials, Guides |
+| 🔧 **Backend Developer** | Your Name | [@username](https://github.com/username) | Motoko, Smart Contracts |
+```
+
+### **🌟 Want to Contribute?**
+We welcome contributions from the community! Here's how you can help:
+
+- 🐛 **Report Bugs**: Found an issue? Open an issue on GitHub
+- 💡 **Suggest Features**: Have ideas? We'd love to hear them
+- 🔧 **Submit Code**: Fork, develop, and create pull requests
+- 📚 **Improve Docs**: Help make our documentation better
+- 🎨 **Design**: Contribute to UI/UX improvements
+
+**Built with ❤️ for the Internet Computer community and young innovators worldwide.**
+
+### **📧 Contact Information**
+- **Email**: purity.19341@student.kyu.ac.ke
+- **GitHub**: [@Purity-Inn](https://github.com/Purity-Inn)
+- **Project**: [RiseUp AI Repository](https://github.com/Purity-Inn/-RiseUp-AI)
+- **LinkedIn**: [Add your LinkedIn if you want]
 
 ---
 
