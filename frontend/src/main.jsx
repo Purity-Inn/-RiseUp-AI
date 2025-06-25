@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { mockBackend } from './mockBackend.js';
-import '../public/bot.svg';
-import '../public/user.svg';
 import '../index.css';
 
 // Use mock backend for development when DFX is not available
