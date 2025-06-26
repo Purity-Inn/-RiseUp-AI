@@ -53,7 +53,7 @@ const App = () => {
       const initialChat = [
         {
           system: { 
-            content: "🌟 Welcome back to RiseUp AI! I'm ready for a fresh conversation. What would you like to explore today? 🚀" 
+            content: "Welcome back to RiseUp AI! I'm ready for a fresh conversation. What would you like to explore today?" 
           }
         }
       ];
@@ -306,7 +306,6 @@ const App = () => {
               ) : (
                 <span className="flex items-center space-x-2">
                   <span>Send</span>
-                  <span>→</span>
                 </span>
               )}
             </button>
