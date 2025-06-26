@@ -144,43 +144,43 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center p-4 relative overflow-hidden">
-      {/* Animated Background Elements */}
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 flex items-center justify-center p-4 relative overflow-hidden">
+      {/* Animated Background Elements - More Subtle */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-4 -left-4 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-        <div className="absolute -bottom-8 -right-4 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse delay-500"></div>
+        <div className="absolute -top-4 -left-4 w-72 h-72 bg-slate-600 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse"></div>
+        <div className="absolute -bottom-8 -right-4 w-72 h-72 bg-gray-600 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-slate-700 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse delay-500"></div>
       </div>
       
-      <div className="w-full max-w-4xl h-[85vh] bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20 flex flex-col relative z-10">
-        {/* Header with Glowing Effect */}
-        <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 text-xl font-bold rounded-t-2xl relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/50 to-blue-600/50 animate-pulse"></div>
+      <div className="w-full max-w-4xl h-[85vh] bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow-2xl border border-gray-600/30 flex flex-col relative z-10">
+        {/* Header - Darker and More Subtle */}
+        <div className="bg-gradient-to-r from-gray-800 to-slate-800 text-gray-200 p-6 text-xl font-bold rounded-t-2xl relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-800/30 to-slate-800/30"></div>
           <div className="relative z-10 flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-gray-700/40 rounded-full flex items-center justify-center text-gray-300 text-sm">
                 AI
               </div>
-              <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent font-extrabold">
+              <span className="bg-gradient-to-r from-gray-300 to-slate-200 bg-clip-text text-transparent font-extrabold">
                 RiseUp AI
               </span>
             </div>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 text-sm">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-green-300">Live on IC</span>
+                <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                <span className="text-emerald-400">Live on IC</span>
               </div>
               <div className="flex space-x-2">
                 <button
                   onClick={exportChat}
-                  className="p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
+                  className="p-2 hover:bg-gray-700/30 rounded-lg transition-colors duration-200 text-gray-300"
                   title="Export Chat"
                 >
                   ↓
                 </button>
                 <button
                   onClick={clearChat}
-                  className="p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
+                  className="p-2 hover:bg-gray-700/30 rounded-lg transition-colors duration-200 text-gray-300"
                   title="Clear Chat"
                 >
                   ×
@@ -189,8 +189,8 @@ const App = () => {
             </div>
           </div>
         </div>
-        {/* Enhanced Chat Area with Better Styling */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-6 bg-gradient-to-b from-white/5 to-white/10" ref={chatBoxRef}>
+        {/* Chat Area - Darker Theme */}
+        <div className="flex-1 overflow-y-auto p-6 space-y-6 bg-gradient-to-b from-gray-800/20 to-gray-900/30" ref={chatBoxRef}>
           {chat.map((msg, idx) => {
             const isUser = 'user' in msg;
             const content = isUser ? msg.user.content : msg.system.content;
@@ -202,18 +202,18 @@ const App = () => {
               <div key={idx} className={`flex ${isUser ? 'justify-end' : 'justify-start'} group`}>
                 {!isUser && (
                   <div className="relative">
-                    <img src={avatar} className="h-10 w-10 rounded-full mr-3 ring-2 ring-purple-400/50" />
+                    <img src={avatar} className="h-10 w-10 rounded-full mr-3 ring-2 ring-gray-500/30" />
                     {isThinking && (
-                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
+                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-amber-500 rounded-full animate-ping"></div>
                     )}
                   </div>
                 )}
                 <div className={`max-w-md rounded-2xl p-4 shadow-lg transition-all duration-300 group-hover:scale-105 ${
                   isUser 
-                    ? 'bg-gradient-to-r from-purple-500 to-blue-500 text-white' 
+                    ? 'bg-gradient-to-r from-slate-600 to-gray-600 text-gray-100' 
                     : isThinking
-                      ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-white animate-pulse'
-                      : 'bg-white/20 text-white border border-white/30 backdrop-blur-sm'
+                      ? 'bg-gradient-to-r from-amber-600 to-orange-600 text-white animate-pulse'
+                      : 'bg-gray-800/40 text-gray-200 border border-gray-600/30 backdrop-blur-sm'
                 }`}>
                   <div className="text-xs mb-2 opacity-75 flex items-center justify-between">
                     <span className="font-medium">{name}</span>
@@ -235,7 +235,7 @@ const App = () => {
                   </div>
                 </div>
                 {isUser && (
-                  <img src={avatar} className="h-10 w-10 rounded-full ml-3 ring-2 ring-blue-400/50" />
+                  <img src={avatar} className="h-10 w-10 rounded-full ml-3 ring-2 ring-gray-500/30" />
                 )}
               </div>
             );
@@ -245,7 +245,7 @@ const App = () => {
           {chat.length === 1 && (
             <div className="px-6 pb-4">
               <div className="text-center mb-4">
-                <p className="text-white/70 text-sm">Try these conversation starters:</p>
+                <p className="text-gray-400 text-sm">Try these conversation starters:</p>
               </div>
               <div className="flex flex-wrap gap-2 justify-center">
                 {[
@@ -259,7 +259,7 @@ const App = () => {
                   <button
                     key={idx}
                     onClick={() => setInputValue(suggestion)}
-                    className="px-3 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-white/80 hover:text-white text-xs transition-all duration-200 backdrop-blur-sm border border-white/20 hover:border-white/40"
+                    className="px-3 py-2 bg-gray-800/30 hover:bg-gray-700/40 rounded-lg text-gray-300 hover:text-gray-200 text-xs transition-all duration-200 backdrop-blur-sm border border-gray-600/30 hover:border-gray-500/50"
                   >
                     {suggestion}
                   </button>
@@ -268,12 +268,12 @@ const App = () => {
             </div>
           )}
           
-          {/* Enhanced Input Form */}
-        <div className="border-t border-white/20 bg-white/10 backdrop-blur-sm p-4 rounded-b-2xl">
+          {/* Input Form - Darker Theme */}
+        <div className="border-t border-gray-600/30 bg-gray-800/30 backdrop-blur-sm p-4 rounded-b-2xl">
           <form onSubmit={handleSubmit} className="flex space-x-3">
             <div className="flex-1 relative">
               <textarea
-                className="w-full p-4 bg-white/20 border border-white/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent placeholder-white/70 text-white transition-all duration-300 backdrop-blur-sm resize-none"
+                className="w-full p-4 bg-gray-800/40 border border-gray-600/40 rounded-xl focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent placeholder-gray-400 text-gray-200 transition-all duration-300 backdrop-blur-sm resize-none"
                 placeholder="Ask RiseUp AI anything... (Press Enter to send, Shift+Enter for new line)"
                 value={inputValue}
                 onChange={e => setInputValue(e.target.value)}
@@ -292,17 +292,17 @@ const App = () => {
               />
               {isLoading && (
                 <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                  <div className="w-5 h-5 border-2 border-gray-500/30 border-t-gray-300 rounded-full animate-spin"></div>
                 </div>
               )}
             </div>
             <button
               type="submit"
-              className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-4 rounded-xl hover:from-purple-600 hover:to-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 transform hover:scale-105 active:scale-95 font-medium shadow-lg hover:shadow-xl"
+              className="bg-gradient-to-r from-slate-600 to-gray-600 text-gray-200 px-8 py-4 rounded-xl hover:from-slate-700 hover:to-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 transform hover:scale-105 active:scale-95 font-medium shadow-lg hover:shadow-xl"
               disabled={isLoading}
             >
               {isLoading ? (
-                <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                <div className="w-5 h-5 border-2 border-gray-400/30 border-t-gray-200 rounded-full animate-spin"></div>
               ) : (
                 <span className="flex items-center space-x-2">
                   <span>Send</span>
@@ -313,7 +313,7 @@ const App = () => {
           </form>
           
           {/* Stats Footer */}
-          <div className="mt-3 flex justify-center items-center space-x-6 text-xs text-white/60">
+          <div className="mt-3 flex justify-center items-center space-x-6 text-xs text-gray-500">
             <div className="flex items-center space-x-1">
               <span>•</span>
               <span>{messageCount} messages</span>
