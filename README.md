@@ -277,7 +277,7 @@ We welcome contributions from the community! Here's how you can help:
 **Built with dedication for the Internet Computer community and young innovators worldwide.**
 
 ### Contact Information
-- **Email**: purity.19341@student.kyu.ac.ke
+- **Email**: kpurity984@gmail.com
 - **GitHub**: [@Purity-Inn](https://github.com/Purity-Inn)
 - **Project**: [RiseUp AI Repository](https://github.com/Purity-Inn/-RiseUp-AI)
 
