@@ -5,7 +5,7 @@ import '../index.css';
 
 // Use mock backend for development when DFX is not available
 const backend = mockBackend;
-console.log('⚠️ Using mock backend for development');
+console.log('Using mock backend for development');
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
     return [
       {
         system: { 
-          content: "🌟 Welcome to RiseUp AI! I'm a sovereign AI agent running entirely on the Internet Computer blockchain. I'm here to inspire, educate, and empower young minds in the world of decentralized technology. Ask me anything about blockchain, Motoko, ICP, or just chat about your dreams and goals! 🚀" 
+          content: "Welcome to RiseUp AI! I'm a sovereign AI agent running entirely on the Internet Computer blockchain. I'm here to inspire, educate, and empower young minds in the world of decentralized technology. Ask me anything about blockchain, Motoko, ICP, or just chat about your dreams and goals!" 
         }
       }
     ];
@@ -116,7 +116,7 @@ const App = () => {
         updated.pop(); // remove "Thinking..."
         return [...updated, { 
           system: { 
-            content: "🚨 I'm experiencing some technical difficulties. This might be due to network issues or the backend being offline. Please try again in a moment!" 
+            content: "I'm experiencing some technical difficulties. This might be due to network issues or the backend being offline. Please try again in a moment!" 
           } 
         }];
       });
@@ -159,7 +159,7 @@ const App = () => {
           <div className="relative z-10 flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                🤖
+                AI
               </div>
               <span className="bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent font-extrabold">
                 RiseUp AI
@@ -176,14 +176,14 @@ const App = () => {
                   className="p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
                   title="Export Chat"
                 >
-                  📥
+                  ↓
                 </button>
                 <button
                   onClick={clearChat}
                   className="p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
                   title="Clear Chat"
                 >
-                  🗑️
+                  ×
                 </button>
               </div>
             </div>
@@ -245,16 +245,16 @@ const App = () => {
           {chat.length === 1 && (
             <div className="px-6 pb-4">
               <div className="text-center mb-4">
-                <p className="text-white/70 text-sm">✨ Try these conversation starters:</p>
+                <p className="text-white/70 text-sm">Try these conversation starters:</p>
               </div>
               <div className="flex flex-wrap gap-2 justify-center">
                 {[
-                  "What is the Internet Computer? 🌐",
-                  "Teach me about Motoko 💜", 
-                  "How can I start building on IC? 🚀",
-                  "What makes blockchain special? 🔗",
-                  "I want to learn programming 💻",
-                  "Tell me about this hackathon project 🏆"
+                  "What is the Internet Computer?",
+                  "Teach me about Motoko", 
+                  "How can I start building on IC?",
+                  "What makes blockchain special?",
+                  "I want to learn programming",
+                  "Tell me about this hackathon project"
                 ].map((suggestion, idx) => (
                   <button
                     key={idx}
@@ -274,7 +274,7 @@ const App = () => {
             <div className="flex-1 relative">
               <textarea
                 className="w-full p-4 bg-white/20 border border-white/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent placeholder-white/70 text-white transition-all duration-300 backdrop-blur-sm resize-none"
-                placeholder="Ask RiseUp AI anything... 🚀 (Press Enter to send, Shift+Enter for new line)"
+                placeholder="Ask RiseUp AI anything... (Press Enter to send, Shift+Enter for new line)"
                 value={inputValue}
                 onChange={e => setInputValue(e.target.value)}
                 onKeyDown={handleKeyDown}
@@ -306,7 +306,7 @@ const App = () => {
               ) : (
                 <span className="flex items-center space-x-2">
                   <span>Send</span>
-                  <span>🚀</span>
+                  <span>→</span>
                 </span>
               )}
             </button>
@@ -315,15 +315,15 @@ const App = () => {
           {/* Stats Footer */}
           <div className="mt-3 flex justify-center items-center space-x-6 text-xs text-white/60">
             <div className="flex items-center space-x-1">
-              <span>💬</span>
+              <span>•</span>
               <span>{messageCount} messages</span>
             </div>
             <div className="flex items-center space-x-1">
-              <span>⚡</span>
+              <span>•</span>
               <span>Powered by IC</span>
             </div>
             <div className="flex items-center space-x-1">
-              <span>🏆</span>
+              <span>•</span>
               <span>Hackathon Ready</span>
             </div>
           </div>

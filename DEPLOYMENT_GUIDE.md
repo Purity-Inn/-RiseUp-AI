@@ -1,31 +1,31 @@
-# 🚀 RiseUp AI - Complete Deployment Guide
+# RiseUp AI - Complete Deployment Guide
 
-## 🎯 **Multiple Deployment Options for Maximum Impact**
+## Multiple Deployment Options for Maximum Impact
 
-### **🌟 Option 1: Vercel (RECOMMENDED FOR HACKATHONS)**
+### Option 1: Vercel (RECOMMENDED FOR HACKATHONS)
 **Perfect for:** Instant deployment, custom domains, edge performance
 
-#### **Quick Deploy (1-Click):**
+#### Quick Deploy (1-Click):
 1. Go to [vercel.com](https://vercel.com)
 2. Click "New Project" → Import from GitHub
 3. Select your `RiseUp-AI` repository
 4. Vercel will auto-detect and deploy!
 
-#### **CLI Deployment:**
+#### CLI Deployment:
 ```bash
 npm install -g vercel
 vercel --prod
 ```
 
-**✅ Benefits:**
-- ⚡ Lightning fast deployment (30 seconds)
-- 🌐 Global CDN with custom domains
-- 📱 Perfect mobile performance
-- 🔄 Auto-deploys on every push
+**Benefits:**
+- Lightning fast deployment (30 seconds)
+- Global CDN with custom domains
+- Perfect mobile performance
+- Auto-deploys on every push
 
 ---
 
-### **🌟 Option 2: Netlify (ALTERNATIVE)**
+### Option 2: Netlify (ALTERNATIVE)
 **Perfect for:** Form handling, serverless functions, A/B testing
 
 #### **Quick Deploy:**

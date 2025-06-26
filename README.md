@@ -1,6 +1,6 @@
-# 🚀 RiseUp AI - Sovereign AI on the Internet Computer
+# RiseUp AI - Sovereign AI on the Internet Computer
 
-> **🏆 ICP Hackathon Entry**: A revolutionary decentralized AI chatbot built entirely on blockchain infrastructure, designed to inspire and empower youth through intelligent conversations.
+> **ICP Hackathon Entry**: A revolutionary decentralized AI chatbot built entirely on blockchain infrastructure, designed to inspire and empower youth through intelligent conversations.
 
 <div align="center">
 
@@ -9,27 +9,27 @@
 ![React](https://img.shields.io/badge/React-✓-61DAFB?style=for-the-badge&logo=react)
 ![Web3](https://img.shields.io/badge/Web3-✓-orange?style=for-the-badge)
 
-[🌐 Live Demo](https://purity-inn.github.io/-RiseUp-AI/) • [📋 Source Code](https://github.com/Purity-Inn/-RiseUp-AI) • [🎥 Demo Video](#demo-scenarios) • [📖 Documentation](#-features-that-wow)
+[Live Demo](https://tubular-medovik-d38232.netlify.app) • [Source Code](https://github.com/Purity-Inn/-RiseUp-AI) • [Demo Video](#demo-scenarios) • [Documentation](#features-that-matter)
 
 </div>
 
 ---
 
-## 🌟 **What Makes This Special?**
+## What Makes This Special?
 
 **RiseUp AI** isn't just another chatbot - it's a **sovereign AI agent** running entirely on blockchain infrastructure. No AWS, no Google Cloud, no centralized servers. Just pure, decentralized artificial intelligence powered by the Internet Computer.
 
-### 🎯 **Hackathon Innovation Points:**
+### Hackathon Innovation Points:
 
-- **🔗 100% On-Chain**: Entire application runs on Internet Computer canisters
-- **🧠 Sovereign AI**: No centralized AI providers - truly decentralized intelligence
-- **💜 Motoko Powered**: Showcases advanced Motoko development with orthogonal persistence
-- **🌍 Youth Focused**: Specifically designed to inspire and educate the next generation
-- **⚡ Production Ready**: Professional UI/UX that rivals centralized alternatives
+- **100% On-Chain**: Entire application runs on Internet Computer canisters
+- **Sovereign AI**: No centralized AI providers - truly decentralized intelligence
+- **Motoko Powered**: Showcases advanced Motoko development with orthogonal persistence
+- **Youth Focused**: Specifically designed to inspire and educate the next generation
+- **Production Ready**: Professional UI/UX that rivals centralized alternatives
 
 ---
 
-## 🏗️ **Technical Architecture**
+## Technical Architecture
 
 ```mermaid
 graph TB
@@ -42,7 +42,7 @@ graph TB
     F --> H[Decentralized AI Processing]
 ```
 
-### **Stack Overview:**
+### Stack Overview:
 - **Frontend**: React + TailwindCSS + Vite
 - **Backend**: Motoko with Actor-based architecture
 - **AI**: Integration with mo:llm library for decentralized AI
@@ -51,22 +51,22 @@ graph TB
 
 ---
 
-## ✨ **Features That Wow**
+## Features That Matter
 
-### 🎨 **Stunning User Experience**
+### Stunning User Experience
 - **Glassmorphism Design**: Modern, beautiful interface with animated backgrounds
 - **Real-time Chat**: Smooth, responsive conversation flow
 - **Typing Indicators**: Professional loading states and animations
 - **Message History**: Persistent chat history with local storage
 - **Export Functionality**: Download conversations for future reference
 
-### 🧠 **Intelligent Conversations**
+### Intelligent Conversations
 - **Context Awareness**: AI understands conversation flow and responds intelligently
 - **Domain Expertise**: Specialized knowledge in blockchain, Motoko, and ICP
 - **Youth Empowerment**: Motivational and educational responses
 - **Technical Depth**: Can discuss complex blockchain concepts clearly
 
-### 🛠️ **Developer Experience**
+### Developer Experience
 - **Hot Reload**: Instant development feedback
 - **Mock Backend**: Develop without needing full IC setup
 - **Type Safety**: Full TypeScript support
@@ -74,12 +74,12 @@ graph TB
 
 ---
 
-## 🚀 **Quick Start**
+## Quick Start
 
-### **Option 1: View Live Demo** 🚀
-**🌐 [LIVE DEMO](https://tubular-medovik-d38232.netlify.app)** - Experience RiseUp AI immediately!
+### Option 1: View Live Demo
+**[LIVE DEMO](https://tubular-medovik-d38232.netlify.app)** - Experience RiseUp AI immediately!
 
-### **Option 2: Run Locally**
+### Option 2: Run Locally
 
 ```bash
 # Clone the repository
@@ -94,9 +94,9 @@ cd frontend && npm install
 npm run dev
 ```
 
-**🌐 Open**: http://localhost:5173
+**Open**: http://localhost:5173
 
-### **Option 3: Full IC Deployment**
+### Option 3: Full IC Deployment
 
 ```bash
 # Install DFX (Internet Computer SDK)
@@ -250,53 +250,44 @@ We welcome contributions from the community! This project represents the future 
 
 ---
 
-## 👥 **Team & Contributors**
+## Team & Contributors
 
-### **🏆 Core Team**
+### Core Team
 
 <div align="center">
 
 | Role | Contributor | GitHub | Contributions |
 |------|-------------|--------|---------------|
-| 🚀 **Lead Developer** | **Purity Inn** | [@Purity-Inn](https://github.com/Purity-Inn) | Full-stack development, Architecture, UI/UX |
+| **Lead Developer** | **Purity Inn** | [@Purity-Inn](https://github.com/Purity-Inn) | Full-stack development, Architecture, UI/UX |
+| **Developer** | **Yatunyi** | [@yatunyi15075](https://github.com/yatunyi15075) | Development, Testing, Implementation |
+| **Developer** | **Annie** | [@Annie-815](https://github.com/Annie-815) | Development, Frontend, User Experience |
+| **Developer** | **Aoluoch** | [@aoluoch](https://github.com/aoluoch) | Development, Backend, Integration |
 
 </div>
 
-### **🤝 How to Add Contributors**
-
-**If you're working with a team, add them here:**
-
-```markdown
-| 🎨 **UI/UX Designer** | Your Name | [@username](https://github.com/username) | Design, User Experience |
-| 🧠 **AI Specialist** | Your Name | [@username](https://github.com/username) | AI Logic, Response Patterns |
-| 📚 **Documentation** | Your Name | [@username](https://github.com/username) | Docs, Tutorials, Guides |
-| 🔧 **Backend Developer** | Your Name | [@username](https://github.com/username) | Motoko, Smart Contracts |
-```
-
-### **🌟 Want to Contribute?**
+### Want to Contribute?
 We welcome contributions from the community! Here's how you can help:
 
-- 🐛 **Report Bugs**: Found an issue? Open an issue on GitHub
-- 💡 **Suggest Features**: Have ideas? We'd love to hear them
-- 🔧 **Submit Code**: Fork, develop, and create pull requests
-- 📚 **Improve Docs**: Help make our documentation better
-- 🎨 **Design**: Contribute to UI/UX improvements
+- **Report Bugs**: Found an issue? Open an issue on GitHub
+- **Suggest Features**: Have ideas? We'd love to hear them
+- **Submit Code**: Fork, develop, and create pull requests
+- **Improve Docs**: Help make our documentation better
+- **Design**: Contribute to UI/UX improvements
 
-**Built with ❤️ for the Internet Computer community and young innovators worldwide.**
+**Built with dedication for the Internet Computer community and young innovators worldwide.**
 
-### **📧 Contact Information**
+### Contact Information
 - **Email**: purity.19341@student.kyu.ac.ke
 - **GitHub**: [@Purity-Inn](https://github.com/Purity-Inn)
 - **Project**: [RiseUp AI Repository](https://github.com/Purity-Inn/-RiseUp-AI)
-- **LinkedIn**: [Add your LinkedIn if you want]
 
 ---
 
 <div align="center">
 
-**🌟 Star this repo if you believe in decentralized AI! 🌟**
+**Star this repo if you believe in decentralized AI!**
 
-[⭐ Star](../../stargazers) • [🍴 Fork](../../fork) • [🐛 Issues](../../issues) • [📬 Discussions](../../discussions)
+[Star](../../stargazers) • [Fork](../../fork) • [Issues](../../issues) • [Discussions](../../discussions)
 
 </div>
 iwr -useb https://sdk.dfinity.org/install.ps1 | iex
