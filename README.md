@@ -139,8 +139,6 @@ npm run build:production
 
 ---
 
-## 🎯 **Hackathon Judging Criteria**
-
 ### **💡 Innovation & Creativity**
 - **First-of-its-kind**: Truly decentralized AI chatbot on blockchain
 - **Novel Architecture**: Demonstrates advanced Motoko capabilities
