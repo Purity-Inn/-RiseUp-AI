@@ -56,32 +56,6 @@ A modern, accessible AI chatbot interface built for the Internet Computer, featu
 
 ---
 
-## 📊 **Judging Criteria Alignment**
-
-### **Innovation** ⭐⭐⭐⭐⭐
-- Unique accessibility-first approach to AI interfaces
-- Modern glassmorphism design with excellent UX
-- Advanced features like chat export and quick actions
-
-### **Technical Quality** ⭐⭐⭐⭐⭐
-- Professional React architecture
-- IC-native with Motoko backend
-- Performance optimized and mobile-first
-- Comprehensive error handling
-
-### **Usability** ⭐⭐⭐⭐⭐
-- Intuitive interface requiring zero learning curve
-- Accessibility compliant (WCAG 2.1 AA)
-- Works seamlessly on all devices
-- Professional polish and attention to detail
-
-### **IC Integration** ⭐⭐⭐⭐⭐
-- Built specifically for Internet Computer
-- Motoko backend ready for deployment
-- DFX configuration optimized
-- Follows IC development best practices
-
----
 
 ## 🚀 **30-Second Deploy for Judges**
 
