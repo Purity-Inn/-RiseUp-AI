@@ -242,7 +242,7 @@ We welcome contributions from the community! This project represents the future 
 
 ---
 
-## 🏆 **Awards & Recognition**
+##  ** Recognition**
 
 *Proudly built for the ICP Hackathon - representing the future of sovereign AI and youth empowerment through blockchain technology.*
 
