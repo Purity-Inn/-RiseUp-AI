@@ -19,8 +19,6 @@
 
 **RiseUp AI** isn't just another chatbot - it's a **sovereign AI agent** running entirely on blockchain infrastructure. No AWS, no Google Cloud, no centralized servers. Just pure, decentralized artificial intelligence powered by the Internet Computer.
 
-### Hackathon Innovation Points:
-
 - **100% On-Chain**: Entire application runs on Internet Computer canisters
 - **Sovereign AI**: No centralized AI providers - truly decentralized intelligence
 - **Motoko Powered**: Showcases advanced Motoko development with orthogonal persistence
