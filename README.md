@@ -9,7 +9,7 @@
 ![React](https://img.shields.io/badge/React-✓-61DAFB?style=for-the-badge&logo=react)
 ![Web3](https://img.shields.io/badge/Web3-✓-orange?style=for-the-badge)
 
-[Live Demo](https://tubular-medovik-d38232.netlify.app) • [Source Code](https://github.com/Purity-Inn/-RiseUp-AI) • [Demo Video](#demo-scenarios) • [Documentation](#features-that-matter)
+[Live Demo](https://tubular-medovik-d38232.netlify.app) • [Source Code](https://github.com/Purity-Inn/-RiseUp-AI) • [Demo Video](https://drive.google.com/file/d/1dj6dySFQTIRnOVW1pYxoEGQDNqUOW3F7) • [Documentation](#features-that-matter)
 
 </div>
 
